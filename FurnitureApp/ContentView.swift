@@ -9,8 +9,20 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ZStack {
+            Color("myBg")
+                .edgesIgnoringSafeArea(.all)
+            
+            VStack(alignment: .leading) {
+                AppBarView()
+                
+                TaglineView()
+                
+                
+                
+            }
+            
+        }
     }
 }
 
