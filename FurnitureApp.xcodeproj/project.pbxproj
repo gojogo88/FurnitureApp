@@ -11,6 +11,8 @@
 		6C0F125727CE202B00C68A2B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0F125627CE202B00C68A2B /* ContentView.swift */; };
 		6C0F125927CE202C00C68A2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C0F125827CE202C00C68A2B /* Assets.xcassets */; };
 		6C0F125C27CE202C00C68A2B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C0F125B27CE202C00C68A2B /* Preview Assets.xcassets */; };
+		6CB956A327CE214F003BC9E6 /* PlayfairDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6CB956A127CE214F003BC9E6 /* PlayfairDisplay-Regular.ttf */; };
+		6CB956A427CE214F003BC9E6 /* PlayfairDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6CB956A227CE214F003BC9E6 /* PlayfairDisplay-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,9 @@
 		6C0F125627CE202B00C68A2B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6C0F125827CE202C00C68A2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C0F125B27CE202C00C68A2B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6CB956A127CE214F003BC9E6 /* PlayfairDisplay-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Regular.ttf"; sourceTree = "<group>"; };
+		6CB956A227CE214F003BC9E6 /* PlayfairDisplay-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Bold.ttf"; sourceTree = "<group>"; };
+		6CB956A527CE21E4003BC9E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +56,11 @@
 		6C0F125327CE202B00C68A2B /* FurnitureApp */ = {
 			isa = PBXGroup;
 			children = (
+				6CB956A527CE21E4003BC9E6 /* Info.plist */,
 				6C0F125427CE202B00C68A2B /* FurnitureAppApp.swift */,
 				6C0F125627CE202B00C68A2B /* ContentView.swift */,
 				6C0F125827CE202C00C68A2B /* Assets.xcassets */,
+				6CB956A027CE2139003BC9E6 /* Fonts */,
 				6C0F125A27CE202C00C68A2B /* Preview Content */,
 			);
 			path = FurnitureApp;
@@ -65,6 +72,15 @@
 				6C0F125B27CE202C00C68A2B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6CB956A027CE2139003BC9E6 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				6CB956A227CE214F003BC9E6 /* PlayfairDisplay-Bold.ttf */,
+				6CB956A127CE214F003BC9E6 /* PlayfairDisplay-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +141,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CB956A427CE214F003BC9E6 /* PlayfairDisplay-Bold.ttf in Resources */,
 				6C0F125C27CE202C00C68A2B /* Preview Assets.xcassets in Resources */,
 				6C0F125927CE202C00C68A2B /* Assets.xcassets in Resources */,
+				6CB956A327CE214F003BC9E6 /* PlayfairDisplay-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +290,7 @@
 				DEVELOPMENT_TEAM = PD76FHD37G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FurnitureApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -301,6 +320,7 @@
 				DEVELOPMENT_TEAM = PD76FHD37G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FurnitureApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
