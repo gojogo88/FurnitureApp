@@ -8,11 +8,14 @@
 import SwiftUI
 
 struct ProductCardView: View {
+    let image: Image
+    let size: CGFloat
+    
     var body: some View {
         VStack {
-            Image("chair_1")
+            image
                 .resizable()
-                .frame(width: 210, height: 200)
+                .frame(width: size, height: 200 * (size/210))
                 .cornerRadius(20)
             
             Text("Luxury Swedian Chair")
@@ -31,7 +34,7 @@ struct ProductCardView: View {
                     .fontWeight(.bold)
             }
         }
-        .frame(width: 210)
+        .frame(width: size)
         .padding()
         .background(Color.white)
         .cornerRadius(20)
@@ -40,6 +43,6 @@ struct ProductCardView: View {
 
 struct ProductCardView_Previews: PreviewProvider {
     static var previews: some View {
-        ProductCardView()
+        ProductCardView(image: Image("chair_1"), size: 210)
     }
 }
