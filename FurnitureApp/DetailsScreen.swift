@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct DetailsScreen: View {
+    @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
+    
     var body: some View {
         ZStack {
             Color("myBg")
@@ -17,11 +19,12 @@ struct DetailsScreen: View {
                 Image("chair_1")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
-                    .edgesIgnoringSafeArea(.top)
+                    
                 
                 DescriptionView()
                     .offset(y: -40)
             }
+            .edgesIgnoringSafeArea(.top)
             
             HStack {
                 Text("$ 1299")
@@ -45,6 +48,8 @@ struct DetailsScreen: View {
             .frame(maxHeight: .infinity, alignment: .bottom)
         }
         .edgesIgnoringSafeArea(.bottom)
+        .navigationBarBackButtonHidden(true)
+        .navigationBarItems(leading: CustomBackButtonView(action: {presentationMode.wrappedValue.dismiss()}), trailing: Image("threeDot"))
     }
 }
 

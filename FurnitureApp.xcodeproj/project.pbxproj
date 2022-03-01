@@ -24,6 +24,7 @@
 		6CB956B827CE3720003BC9E6 /* ColorDotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB956B727CE3720003BC9E6 /* ColorDotView.swift */; };
 		6CB956BA27CE39E1003BC9E6 /* RoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB956B927CE39E1003BC9E6 /* RoundedCorner.swift */; };
 		6CB956BC27CE3AC3003BC9E6 /* DetailsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB956BB27CE3AC3003BC9E6 /* DetailsScreen.swift */; };
+		6CB956BE27CE3C54003BC9E6 /* CustomBackButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB956BD27CE3C54003BC9E6 /* CustomBackButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		6CB956B727CE3720003BC9E6 /* ColorDotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDotView.swift; sourceTree = "<group>"; };
 		6CB956B927CE39E1003BC9E6 /* RoundedCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorner.swift; sourceTree = "<group>"; };
 		6CB956BB27CE3AC3003BC9E6 /* DetailsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsScreen.swift; sourceTree = "<group>"; };
+		6CB956BD27CE3C54003BC9E6 /* CustomBackButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				6CB956B727CE3720003BC9E6 /* ColorDotView.swift */,
 				6CB956B227CE33F0003BC9E6 /* HomeScreen.swift */,
 				6CB956B927CE39E1003BC9E6 /* RoundedCorner.swift */,
+				6CB956BD27CE3C54003BC9E6 /* CustomBackButtonView.swift */,
 				6CB956B427CE342F003BC9E6 /* HomeScreenViews */,
 				6C0F125827CE202C00C68A2B /* Assets.xcassets */,
 				6CB956A027CE2139003BC9E6 /* Fonts */,
@@ -208,6 +211,7 @@
 				6CB956A927CE28F1003BC9E6 /* TaglineView.swift in Sources */,
 				6CB956AF27CE2E0D003BC9E6 /* ProductCardView.swift in Sources */,
 				6CB956B127CE30A2003BC9E6 /* BottomNavBarItem.swift in Sources */,
+				6CB956BE27CE3C54003BC9E6 /* CustomBackButtonView.swift in Sources */,
 				6CB956B627CE3539003BC9E6 /* DescriptionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
