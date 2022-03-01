@@ -13,7 +13,7 @@ struct AppBarView: View {
             Button(action: {}) {
                 Image("menu")
                     .padding()
-                    .background(Color(.white))
+                    .background(Color.white)
                     .cornerRadius(10)
             }
             

@@ -17,9 +17,9 @@ struct ContentView: View {
                 AppBarView()
                 
                 TaglineView()
+                    .padding()
                 
-                
-                
+                SearchAndScanView()
             }
             
         }
